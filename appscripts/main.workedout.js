@@ -3,7 +3,7 @@ require.config({
     paths: {"jsaSound": "http://animatedsoundworks.com:8001"}
 });
 require(
-    ["jsaSound/jsaModels/Jeffers/Plucky",".../jslibs/raphael.lonce"],
+    ["jsaSound/jsaModels/Jeffers/Plucky"],
 
 function(dotmusicFactory){
     var dotmusic = dotmusicFactory();
