@@ -16,7 +16,7 @@ function(dotmusicFactory){
             
         console.log("START!");
         
-        var backgroundMusic = new Audio("resources/backgroundmusic.wav");
+        /*var backgroundMusic = new Audio("resources/backgroundmusic.wav");
         function enableAutoplay(){ 
         console.log("music is playing")
         backgroundMusic.autoplay = true;
@@ -24,7 +24,7 @@ function(dotmusicFactory){
         backgroundMusic.load();
     }
 
-    enableAutoplay();
+    enableAutoplay();*/
 
         var paper = new Raphael(document.getElementById("mySVGCanvas"));
         mySVGCanvas.style.backgroundImage = "url('background.jpeg')";
